@@ -3,7 +3,7 @@
   text-align: center;
 }
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: rgba(171, 104, 233, 1);
 }
 body {
   background: rgb(105, 99, 231);
@@ -12,8 +12,22 @@ body {
     rgba(105, 99, 231, 1) 0%,
     rgba(171, 104, 233, 1) 100%
   );
+  display: flex;
+  align-items: center;
+  margin: auto;
+
+  background-repeat: no-repeat;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
 }
 #card {
   width: 919px;
   height: 508px;
+  background-color: white;
+  background-image: url(images/bg-pattern-desktop.svg),
+    url(images/illustration-woman-online-desktop.svg);
+  border-radius: 20px;
+  background-position: -590px -290px, -90px 80px;
+  background-repeat: no-repeat;
 }
