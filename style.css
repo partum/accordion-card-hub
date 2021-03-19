@@ -1,6 +1,19 @@
 .attribution {
-    font-size: 11px;
-    text-align: center;
-  }
-  .attribution a {
-    color: hsl(228, 45%, 44%);
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+body {
+  background: rgb(105, 99, 231);
+  background: linear-gradient(
+    0deg,
+    rgba(105, 99, 231, 1) 0%,
+    rgba(171, 104, 233, 1) 100%
+  );
+}
+#card {
+  width: 919px;
+  height: 508px;
+}
