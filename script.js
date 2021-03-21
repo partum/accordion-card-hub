@@ -16,3 +16,10 @@ for (i = 0; i < acc.length; i++) {
     }
   });
 }
+
+/*
+Add arrow icon
+add code to have one section close when another opens
+fix @ box picture
+file:///C:/Users/kawai/Documents/GitHub/accordian-card-hub/index.html
+*/

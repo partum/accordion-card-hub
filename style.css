@@ -33,6 +33,7 @@ body {
   color: hsl(237, 12%, 33%);
   font-size: 12px;
   font-family: "Kumbh Sans", sans-serif;
+  overflow: hidden;
 }
 h1 {
   font-weight: 700;
@@ -49,7 +50,6 @@ h1 {
 .test::after {
   content: "";
   height: 1px;
-
   margin: 0 auto;
   left: 0;
   width: 348px;
@@ -79,9 +79,9 @@ img {
   font-size: 12px;
   text-align: left;
   border: none;
-  /* border-bottom: solid 1px #e8e8e8; */
   outline: none;
   transition: 0.4s;
+  transition-property: display;
   padding: 20px 0;
   width: 348px;
 }
@@ -93,4 +93,9 @@ img {
 
 .question:hover {
   color: #f27c54;
+}
+
+p {
+  margin: 0;
+  margin-bottom: 20px;
 }
