@@ -42,7 +42,8 @@ body {
 }
 h1 {
   font-weight: 700;
-  font-size: 24px;
+  font-size: 32px;
+  margin-bottom: 15px;
   color: black;
 }
 
@@ -74,7 +75,7 @@ img {
 #content {
   position: relative;
   left: 477px;
-  top: -131px;
+  top: -150px;
   width: 348px;
 }
 
@@ -115,4 +116,53 @@ img {
 p {
   margin: 0;
   margin-bottom: 20px;
+}
+.mobile-img {
+  display: none;
+}
+
+@media only screen and (max-width: 375px) {
+  body {
+    background-color: lightblue;
+    overflow: clip;
+  }
+  #card {
+    width: 335px;
+    height: 535px;
+    background-image: none;
+    margin-top: 109px;
+  }
+  .desktop-img {
+    display: none;
+  }
+  .mobile-img {
+    display: inline;
+  }
+  #bg {
+    position: relative;
+    top: 0px;
+    left: 50px;
+  }
+  #woman {
+    top: -210px;
+    left: 20px;
+  }
+  #content {
+    left: 24px;
+    top: -190px;
+  }
+  .question {
+    width: 300px;
+  }
+  .test::after {
+    left: -24px;
+    width: 300px;
+  }
+  h1 {
+    left: 120px;
+    position: relative;
+  }
+  .answer {
+    width: 250px;
+  }
 }
