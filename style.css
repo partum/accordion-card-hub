@@ -123,8 +123,7 @@ p {
 
 @media only screen and (max-width: 375px) {
   body {
-    background-color: lightblue;
-    overflow: clip;
+    overflow: hidden;
   }
   #card {
     width: 335px;
