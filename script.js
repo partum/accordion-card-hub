@@ -21,9 +21,3 @@ for (i = 0; i < acc.length; i++) {
     }
   });
 }
-
-/*
-add code to have one section close when another opens
-fix image transparency
-fix overflow on body
-*/
